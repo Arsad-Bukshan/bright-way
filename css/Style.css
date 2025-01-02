@@ -364,8 +364,6 @@ footer .container-one{
   padding: 68px 128px 0px 128px;
 }
 
-
-
 footer .container-two{
   width: auto;
   height: auto;
@@ -392,7 +390,6 @@ footer .container-two .left-container ul{
   flex-wrap: wrap;
   gap: 40px;
 }
-
 
 
 footer .container-two .left-container ul li{
