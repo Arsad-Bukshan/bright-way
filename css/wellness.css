@@ -1,0 +1,164 @@
+.section-one{
+    width: 100%;
+    height: 616px;
+    background-image: url('../src/image/wellness/sectionone/banner.png');
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.section-one .content{
+    width: 768px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 83px;
+    gap: 25px;
+
+}
+
+.section-two{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+.section-two .container-one{
+    width: 807px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 47px;
+    margin-top: 140px;
+}
+
+.section-two .container-two{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 312px;
+}
+
+.section-two .container-two .left-container, .section-two .container-two .right-container{
+    display: flex;
+    flex-direction: column;
+    gap: 97px;
+}
+
+.section-two .container-two .left-container img, .section-two .container-two .right-container img{
+    width: 94px;
+    height: 94px;
+}
+
+.section-two .container-two .left-container .first-container, .section-two .container-two .left-container .second-container,.section-two .container-two .left-container .third-container, .section-two .container-two .right-container .first-container, .section-two .container-two .right-container .second-container,.section-two .container-two .right-container .third-container{
+    width: 457px;
+    height: auto;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-three{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 197px;
+}
+
+.section-three .left-container, .section-three .right-container{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.section-three .left-container form{
+    width: 430px;
+    height: 60px;
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+}
+
+.section-three .left-container form .input{
+    width: 430px;
+    height: 60px;
+}
+
+.section-three .left-container button {
+    width: auto;
+    height: auto;
+    padding: 9px;
+    border-radius: 20px;
+}
+
+.section-three .left-container button:hover{
+    background-color: rgb(34, 34, 80);
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.section-three .right-container img{
+    width: 100%;
+    height: auto;
+}
+
+.section-five{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 74px;
+    margin-top: 197px;
+}
+
+.section-five .container-one{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 43px;
+    text-align: center;
+
+}
+
+.section-five .container-two{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 93px;
+}
+
+.section-five .container-three button{
+    width: 196px;
+    height: auto;
+    padding: 20px 40px;
+    border-radius: 14px;
+    background-color: transparent;
+}
+
+.section-five .container-three button:hover{
+    background-color: #2A5298;
+    color: #ffffff;
+    border-color: transparent;
+    transition: 0.7s;
+    cursor: pointer;
+}

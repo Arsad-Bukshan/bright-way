@@ -167,6 +167,10 @@
   color: #ff9900;
 }
 
+.Quaternary-color-four{
+  color: #BF9B9B;
+}
+
 /* Style guide color end */
 
 /* Nav section start */
@@ -219,6 +223,11 @@ nav button{
   border: transparent;
 }
 
+nav button:hover {
+  background-color: rgb(34, 34, 80);
+  cursor: pointer;
+  transition: 0.7s;
+}
 
 nav ul li{
   list-style: none;
@@ -340,7 +349,6 @@ header label{
 
 
 
-
 /*footer section start*/
 
 footer{
@@ -362,6 +370,7 @@ footer .container-one{
   width: auto;
   height: auto;
   padding: 68px 128px 0px 128px;
+  /* background-color: red; */
 }
 
 footer .container-two{
@@ -426,6 +435,13 @@ footer .container-two .right-container .bottom-container button{
   background-color: transparent;
   border: 1px solid rgb(255, 255, 255);
   color: #E4E4E4;
+}
+
+footer .container-two .right-container .bottom-container button:hover{
+  background-color: red;
+  color: white;
+  transition: 0.7s;
+  cursor: pointer;
 }
 
 
@@ -924,93 +940,85 @@ footer .container-four{
 
 }
 
-@media (max-width:500px) {
-  .primary-font {
-    font-size: 18px;
-}
+@media (max-width:560px){
+  .secondary-medium{
+    font-size: 20px;
+    font-weight: 300;
+  }
 
-.primary-big {
-    font-size: 32px;
-    font-weight: 600;
-}
+  .primary-bold-font{
+    font-size: 22px;
+  }
 
-.primary-semibold-font {
-    font-size: 26px;
-    font-weight: 600;
-}
-
-.primary-bold-font {
-    font-size: 26px;
-    font-weight: 700;
-}
-
-
-.secondary-font {
+  .primary-font{
     font-size: 16px;
+    flex-wrap: wrap;
+  }
 }
 
-.secondary-big {
-    font-size: 20px;
-}
+@media (max-width:500px) {
+  .secondary-medium{
+    font-size: 18px;
+    font-weight: 300;
+  }
 
-.secondary-bold-font {
+  .primary-bold-font{
+    font-size: 18px;
+  }
+
+  .primary-font{
     font-size: 14px;
-    font-weight: 700;
-}
+    flex-wrap: wrap;
+  }
 
-.teritory-font {
+  .title-font {
+    font-size: 54px;
+  }
+
+  .secondary-small {
+    font-size: 18px;
+  }
+
+  .teritory-font {
     font-size: 14px;
-}
+  }
 
-.card-big-font {
-    font-size: 20px;
-    font-weight: 500;
-}
+  .teritory-font {
+    font-size: 9px;
+  }
 
 }
 
 @media (max-width:400px) {
-  .primary-font {
-    font-size: 16px;
-}
+  .secondary-medium{
+    font-size: 18px;
+    font-weight: 300;
+  }
 
-.primary-big {
-    font-size: 28px;
-    font-weight: 600;
-}
+  .primary-bold-font{
+    font-size: 18px;
+  }
 
-.primary-semibold-font {
-    font-size: 22px;
-    font-weight: 600;
-}
+  .primary-font{
+    font-size: 14px;
+    flex-wrap: wrap;
+  }
 
-.primary-bold-font {
-    font-size: 25px;
-    font-weight: 700;
-}
+  .title-font {
+    font-size: 54px;
+  }
 
+  .secondary-small {
+    font-size: 18px;
+  }
 
-.secondary-font {
-    font-size: 16px;
-}
+  .teritory-font {
+    font-size: 14px;
+  }
 
-.secondary-big {
-    font-size: 20px;
-}
-
-.secondary-bold-font {
-    font-size: 12px;
-    font-weight: 700;
-}
-
-.teritory-font {
-    font-size: 12px;
-}
-
-.card-big-font {
-    font-size: 20px;
-    font-weight: 500;
-}
+  .teritory-font {
+    font-size: 9px;
+  }
 
 }
 
