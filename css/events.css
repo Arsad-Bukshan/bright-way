@@ -51,11 +51,25 @@
     border: none;
 }
 
+.container-one .center-container .buttoncontainer .buttonone:hover{
+    background-color: rgb(34, 34, 80);
+    cursor: pointer;
+    transition: 0.7s;
+}
+
 .container-one .center-container .buttoncontainer .buttontwo {
     width: 196px;
     height: 47px;
     border-radius: 14px;
     background-color: transparent;
+}
+
+.container-one .center-container .buttoncontainer .buttontwo:hover{
+    background-color: #68B684;
+    color: white;
+    border-color: transparent;
+    cursor: pointer;
+    transition: 0.7s;
 }
 
 

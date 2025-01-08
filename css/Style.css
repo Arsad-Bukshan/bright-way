@@ -182,7 +182,6 @@ header nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 }
 
 
@@ -198,7 +197,7 @@ nav{
   height: auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   /* gap: 151px; */
   /* padding: 40px 70px; */
   position: relative;
@@ -207,14 +206,14 @@ nav{
 }
 
 
-
 nav ul{
   display: flex;
   gap: 28px;
   position: relative;
 }
+
 nav button{
-  width: 196px;
+  width: auto;
   height: 47px;
   padding: 10px;
   border-radius: 14px;
@@ -349,6 +348,7 @@ header label{
 
 
 
+
 /*footer section start*/
 
 footer{
@@ -381,7 +381,6 @@ footer .container-two{
   gap: 250px;
   align-items: center;
   justify-content: space-between;
-
 }
 
 footer .container-two .left-container{
@@ -394,7 +393,7 @@ footer .container-two .left-container{
 
 footer .container-two .left-container ul{
   width: 350px;
-  height: 58px;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
@@ -421,12 +420,16 @@ footer .container-two .right-container .top-container{
 }
 
 footer .container-two .right-container .bottom-container .input{
-  width: 300px;
+  width: auto;
   height: auto;
   padding: 10px;
   background-color: transparent;
   border: 1px solid rgb(220, 220, 220);
   /* background-color:red; */
+}
+
+footer .container-two .right-container .bottom-container .input::placeholder{
+  color: rgb(224, 222, 222);
 }
 
 footer .container-two .right-container .bottom-container button{
@@ -641,6 +644,7 @@ footer .container-four{
     }
 
     footer .container-two{
+      width: 40%;
       flex-wrap: wrap ;
       gap: 100px;
     }
@@ -1021,6 +1025,45 @@ footer .container-four{
   }
 
 }
+
+
+@media (max-width:320px) {
+
+  .secondary-medium{
+    font-size: 14px;
+    font-weight: 200;
+  }
+
+  .primary-bold-font{
+    font-size: 14px;
+  }
+
+  .primary-font{
+    font-size: 12px;
+    flex-wrap: wrap;
+  }
+
+  .title-font {
+    font-size: 18px;
+  }
+
+  .secondary-small {
+    font-size: 14px;
+  }
+
+  .teritory-font {
+    font-size: 12px;
+  }
+
+  .teritory-font {
+    font-size: 6px;
+  }
+
+}
+
+
+
+
 
 
 /* media query font end */

@@ -448,6 +448,16 @@
 
 @media (max-width:720px){
 
+    header nav {
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 45%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
     .section-two .top-container h2 {
         font-size: 20px;
     }
@@ -525,6 +535,29 @@
         font-size: 18px;
     }
 }
+
+
+@media (max-width:380px){
+
+    header nav .logo-container{
+       width: 100%; 
+    }
+
+}
+
+
+@media (max-width:320px){
+
+    header nav .logo-container{
+       width: 100%; 
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+}
+
+
 
 
 
