@@ -1,7 +1,7 @@
 /* section one start */
 
 .section-one {
-    width: 100%;
+    width: auto;
     height: 693.32px;
     display: flex;
     align-items: center;
@@ -464,97 +464,705 @@
 }
 
 
-@media (max-width:560px){
+@media (max-width:660px) {
 
-    .section-three {
-        width: auto;
+    .section-one {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
     }
 
-    .section-eight .left-container img {
-        width: 90%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    footer .container-two {
-        padding: 0px 0px;
-    }
-
-    .container-one {
-        margin-right: auto;
-    }
-}
-
-@media (max-width:500px){
-
-    header nav{
+    .section-one .left-container {
+        padding: 20px;
         width: 100%;
+        height: auto;
+    }
+
+    .section-two .bottom-container .one {
+        flex-direction: column;
         gap: 20px;
     }
 
-    .left-container {
-        margin-right: 15%;
+    .section-three {
+        flex-direction: column;
+        gap: 20px;
     }
 
-    .section-two .top-container .secondary-small {
+    .section-three .left-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-three .right-container {
+        width: 90%;
+        text-align: center;
+    }
+
+    .section-four {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section-four .left-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-four .right-container {
+        width: 90%;
+        text-align: center;
+    }
+
+    .section-five {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section-five .left-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-five .right-container {
+        width: 90%;
+        text-align: center;
+    }
+
+    .section-six {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section-six .left-container,
+    .section-six .right-container {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .section-seven {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .section-seven .left-container {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-seven .left-container .top-container {
+        width: 100%;
+    }
+
+    .section-seven .left-container .bottom-container {
+        display: none;
+    }
+
+    .section-eight {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section-eight .left-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-eight .right-container {
+        width: 90%;
+        text-align: center;
+    }
+
+    header nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section-two .top-container h2 {
         font-size: 18px;
     }
 
-    .section-two .bottom-container .left-container h1{
-        font-size: 18px;
+    button {
+        width: auto;
+        padding: 10px 20px;
+        font-size: 14px;
     }
 }
 
-@media (max-width:450px){
 
+@media (max-width:490px) {
 
-    header nav{
-        display: flex;
-        justify-content: center;
-    flex-wrap: wrap;
+    /* Section One */
+    .section-one {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        text-align: center;
     }
 
-    .left-container {
+    .section-one .left-container {
+        padding: 15px;
+        width: 100%;
+        height: auto;
+    }
+
+    .section-one .left-container button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /* Section Two */
+    .section-two .bottom-container .one {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Section Three */
+    .section-three {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .section-three .left-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-three .right-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-three .right-container button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /* Section Four */
+    .section-four {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .section-four .left-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-four .right-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-four .right-container button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /* Section Five */
+    .section-five {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .section-five .left-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-five .right-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-five .right-container button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /* Section Six */
+    .section-six {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .section-six .left-container{
+        width: auto;
+    }
+    .section-six .right-container {
+        width: auto;
+        height: auto;
+        padding: 15px;
+    }
+
+    /* Section Seven */
+    .section-seven {
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+
+    .section-seven .left-container {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-seven .left-container .top-container {
+        width: 100%;
+    }
+
+    .section-seven .left-container .bottom-container {
+        display: none;
+    }
+
+    /* Section Eight */
+    .section-eight {
+        width: auto;
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .section-eight .left-container img {
+        width: auto;
+        height: auto;
+    }
+
+    .section-eight .right-container {
+        width: auto;
+        text-align: center;
+    }
+
+    .section-eight .right-container button {
+        width: auto;
+        font-size: 14px;
+    }
+
+    /* General Styles */
+    header nav {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .section-two .top-container h2 {
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+
+@media (max-width: 475px) {
+
+    /* Section One */
+    .section-one {
+        flex-direction: column;
+        padding: 15px;
+        gap: 20px;
+        height: auto;
+    }
+
+    .section-one .left-container {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .section-one button {
+        width: 100%;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .section-one img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Section Two */
+    .section-two {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .section-two .top-container {
+        text-align: center;
+    }
+
+    .section-two .bottom-container .one {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .section-two .bottom-container .one .left-container {
+        padding: 10px;
+    }
+
+    .section-two .bottom-container .one .right-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Section Three */
+    .section-three {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .section-three .left-container {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .section-three .right-container {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .section-three .right-container button {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .section-three img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Section Four */
+    .section-four {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .section-four .left-container {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .section-four .right-container {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .section-four .right-container button {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .section-four img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Section Five */
+    .section-five {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .section-five .left-container {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .section-five .right-container {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .section-five .right-container button {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .section-five img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Section Six */
+    .section-six {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .section-six .left-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .section-six .right-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Section Seven */
+    .section-seven {
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .section-seven .left-container {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .section-seven .right-container {
+        width: 100%;
+        display: none;
+    }
+
+    /* Section Eight */
+    .section-eight {
+        flex-direction: column;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .section-eight .left-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-eight .right-container {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .section-eight .right-container button {
+        width: 100%;
+        padding: 10px;
+    }
+
+    header nav {
+        width: 100%;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
         align-items: center;
     }
 
-    .section-two .top-container .secondary-small {
+    header nav img {
+        max-width: 80px;
+        height: auto;
+    }
+
+    header nav a {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    header nav button {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+
+
+
+@media (max-width: 400px) {
+
+    header nav {
+        width: 100%;
+        height: auto;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px 0;
     }
 
-    .section-two .top-container h2{
-        font-size: 3px;
+    header nav a {
+        font-size: 12px;
+        text-align: center;
+        padding: 5px 10px;
     }
 
-    .section-two .bottom-container .left-container h1{
+    header nav img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    header nav button {
+        width: 100%;
+        font-size: 12px;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .section-one, .section-two, .section-three, .section-four, .section-five, .section-six, .section-seven, .section-eight {
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+ 
+    button {
+        width: 100%;
+        padding: 8px 10px;
+        font-size: 10px;
+    }
+
+   
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    
+    h1, h2, h3, p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 350px) {
+
+  
+    body, html {
+        overflow-x: hidden; 
+        margin: 0;
+        padding: 0;
+    }
+
+    
+    .section-one, .section-two, .section-three, .section-four, .section-five, .section-six, .section-seven, .section-eight {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Section One */
+    .section-one {
+        height: auto;
+        padding-left: 20px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .section-one .left-container {
+        width: 100%;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+
+    /* Section Two */
+    .section-two .top-container h2 {
         font-size: 18px;
     }
-}
 
-
-@media (max-width:380px){
-
-    header nav .logo-container{
-       width: 100%; 
+    .section-two .bottom-container .one {
+        flex-direction: column;
     }
 
-}
-
-
-@media (max-width:320px){
-
-    header nav .logo-container{
-       width: 100%; 
-       display: flex;
-       justify-content: center;
-       align-items: center;
+    /* Section Three */
+    .section-three {
+        flex-direction: column;
     }
 
+    .section-three .left-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-three .right-container {
+        width: 100%;
+    }
+
+    /* Section Four */
+    .section-four {
+        flex-direction: column;
+    }
+
+    .section-four .left-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-four .right-container {
+        width: 100%;
+    }
+
+    /* Section Five */
+    .section-five {
+        flex-direction: column;
+    }
+
+    .section-five .left-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-five .right-container {
+        width: 100%;
+    }
+
+    /* Section Six */
+    .section-six {
+        flex-direction: column;
+    }
+
+    .section-six .left-container, .section-six .right-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    /* Section Seven */
+    .section-seven {
+        flex-direction: column;
+    }
+
+    .section-seven .left-container .top-container h2 {
+        font-size: 18px;
+    }
+
+    /* Section Eight */
+    .section-eight {
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .section-eight .left-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-eight .right-container {
+        width: 100%;
+    }
 }
 
 

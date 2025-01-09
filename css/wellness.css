@@ -371,37 +371,6 @@
         padding: 10px 20px;
         font-size: 14px;
     }
-
-    footer {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-    }
-
-    footer .container-one{
-        display: flex;
-        justify-content: start;
-        align-items: start;
-        flex-direction: column;
-    }
-    footer .container-two {
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-    }
-
-    footer .container-two ul {
-        flex-direction: column;
-        justify-content:center ; 
-        gap: 10px;
-    }
-
-    footer .container-two .bottom-container {
-        flex-direction: column;
-        justify-content: center;
-        gap: 10px;
-    }
 }
 
 
@@ -523,38 +492,6 @@
         width: auto;
         padding: 8px 20px;
         font-size: 12px;
-    }
-
-    footer {
-        width: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        padding: 10px;
-    }
-
-    footer .container-one h1 {
-        font-size: 18px;
-    }
-    footer .container-one h4 {
-        font-size: 14px; 
-        text-align: center;
-    }
-
-    footer .container-two {
-        width: 100%;
-        text-align: center;
-    }
-
-    footer .container-two ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    footer .container-two .bottom-container {
-        flex-direction: column;
-        gap: 10px;
     }
 }
 
@@ -728,29 +665,6 @@
         text-align: center;
         font-size: 16px;
     }
-
-    footer {
-        padding: 30px 20px;
-    }
-
-    footer .container-one {
-        text-align: center;
-    }
-
-    footer .container-two {
-        display: block;
-        text-align: center;
-    }
-
-    footer .container-two .left-container {
-        text-align: start;
-        flex-wrap: wrap;
-    }
-
-    footer .container-three {
-        margin-top: 20px;
-        text-align: center;
-    }
 }
 
 
@@ -918,24 +832,6 @@
         padding: 10px;
         text-align: center;
         font-size: 14px;
-    }
-
-    footer {
-        padding: 20px 10px;
-    }
-
-    footer .container-one {
-        text-align: center;
-    }
-
-    footer .container-two {
-        display: block;
-        text-align: start;
-    }
-
-    footer .container-three {
-        margin-top: 15px;
-        text-align: start;
     }
 }
 
@@ -1109,24 +1005,6 @@
         padding: 8px;
         text-align: center;
         font-size: 12px;
-    }
-
-    footer {
-        padding: 15px 10px;
-    }
-
-    footer .container-one {
-        text-align: center;
-    }
-
-    footer .container-two {
-        display: block;
-        text-align: center;
-    }
-
-    footer .container-three {
-        margin-top: 15px;
-        text-align: center;
     }
 }
 
