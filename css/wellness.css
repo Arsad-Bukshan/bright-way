@@ -15,7 +15,6 @@
     flex-direction: column;
     margin-left: 83px;
     gap: 25px;
-
 }
 
 .section-two{
@@ -168,11 +167,10 @@
 }
 
 .section-five .container-three button:hover{
-    background-color: #2A5298;
-    color: #ffffff;
-    border-color: transparent;
-    transition: 0.7s;
+    background-color: #68B684;
+    color: white;
     cursor: pointer;
+    transition: 0.7s;
 }
 
 
@@ -182,6 +180,9 @@
 
 
 /* media query start */
+
+
+
 
 
 

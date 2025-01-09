@@ -225,6 +225,12 @@
     cursor: pointer;
 }
 
+.login-btn:hover {
+    background-color: rgb(34, 34, 80);
+    cursor: pointer;
+    transition: 0.7s;
+}
+
 .signup-btn {
     width: 196px;
     height: 47px;
@@ -235,6 +241,13 @@
     border-radius: 14px;
     font-size: 16px;
     cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: #68B684;
+    color: white;
+    cursor: pointer;
+    transition: 0.7s;
 }
 
 

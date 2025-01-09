@@ -46,6 +46,20 @@
     border-radius: 14px;
 }
 
+.container-one .left-container button:hover {
+    background-color: rgb(34, 34, 80);
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.container-one .left-container .primary-color:hover{
+    background-color: #68B684;
+    color: white;
+    border-color: transparent;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
 .container-one .left-container .primary-color {
     background-color: transparent;
 }
@@ -193,6 +207,12 @@
     margin-bottom: 123px;
 }
 
+.container-three .total-container-two button:hover{
+    background-color: rgb(34, 34, 80);
+    cursor: pointer;
+    transition: 0.7s;
+}
+
 
 
 
@@ -303,6 +323,14 @@
     background-color: transparent;
     border-radius: 14px;
     margin-top: 40px;
+}
+
+.buttoncontainertwo button:hover {
+    background-color: #68B684;
+    color: white;
+    border-color: transparent;
+    cursor: pointer;
+    transition: 0.7s;
 }
 
 

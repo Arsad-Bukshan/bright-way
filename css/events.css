@@ -541,7 +541,6 @@
         padding: 0;
     }
 
-
     .logo-conatiner {
         text-align: center;
         margin-bottom: 10px;
@@ -551,7 +550,6 @@
         font-size: 16px;
         text-align: center;
     }
-
 
     ul {
         display: flex;
@@ -573,7 +571,6 @@
         padding: 5px 0;
     }
 
-
     label {
         font-size: 24px;
         cursor: pointer;
@@ -586,7 +583,6 @@
     input[type="checkbox"]:checked+ul {
         display: flex;
     }
-
 
     button {
         width: 100%;
@@ -605,7 +601,6 @@
         background-color: #092049;
     }
 
-
     .container-one .center-container .buttoncontainer {
         flex-direction: column;
         gap: 20px;
@@ -616,7 +611,6 @@
         width: 100%;
         max-width: 250px;
     }
-
 
     .container-two .bottom-container {
         flex-direction: column;
@@ -630,7 +624,6 @@
         width: 100%;
         text-align: center;
     }
-
 
     .container-three {
         flex-direction: column;
@@ -652,13 +645,11 @@
         gap: 15px;
     }
 
-
     .container-four .one-container {
         width: 90%;
         margin-left: 5%;
         padding: 20px;
     }
-
 
     .container-five .left-section {
         width: 100%;
