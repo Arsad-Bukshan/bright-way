@@ -369,6 +369,7 @@
     }
 
     .container-two .bottom-container {
+        width: 50%;
         gap: -60px;
         flex-direction: column;
         align-items: center;
@@ -424,6 +425,10 @@
 
 @media (max-width: 920px) {
 
+    * {
+        width: auto;
+    }
+
     .container-one .center-container h1 {
         width: 80%;
         font-size: 28px;
@@ -469,6 +474,7 @@
 
 
     .container-three {
+        width: auto;
         flex-direction: column;
         align-items: center;
         padding: 20px;
@@ -646,8 +652,8 @@
     }
 
     .container-four .one-container {
-        width: 90%;
-        margin-left: 5%;
+        width: auto;
+        margin-right: 5%;
         padding: 20px;
     }
 
@@ -665,6 +671,74 @@
         width: 100%;
         max-width: 250px;
         margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 590px) {
+     .container-one .center-container p {
+        font-size: 13px;
+        letter-spacing: 10px;
+     }
+
+     .container-one .center-container h1 {
+        font-size: 20px;
+        margin-top: 5%;
+     }
+
+     .container-three .left-container {
+       display: none;
+     }
+
+     .container-three .right-container .text-whole {
+        width: auto;
+        height: auto;
+        margin-bottom: 15%;
+     }
+
+
+     .container-five {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20%;
+     }
+
+     .container-five .right-section {
+        width: auto;
+     }
+
+     .container-five .left-section img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 420px) {
+    .container-one .center-container p {
+        font-size: 10px;
+        letter-spacing: 10px;
+    }
+
+    .container-three .left-container {
+        display: none;
+    }
+
+    .container-three .right-container {
+        gap: 50%;
+    }
+
+    .container-five {
+        text-align: center;
+        margin-top: 20%;
+    }
+
+    .container-five .left-section img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 350px) {
+    .container-five .left-section img {
+        width: 60%;
     }
 }
 

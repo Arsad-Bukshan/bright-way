@@ -892,26 +892,27 @@ header label{
     flex-wrap: wrap;
   }
 
+  .primary-semibold-font {
+    font-size: 16px;
+    font-weight: 300px;
+  }
+
   .title-font {
     font-size: 54px;
   }
 
   .secondary-small {
-    font-size: 18px;
-  }
-
-  .teritory-font {
     font-size: 14px;
   }
 
   .teritory-font {
-    font-size: 9px;
+    font-size: 12px;
   }
 
 }
 
 
-@media (max-width:320px) {
+@media (max-width:350px) {
 
   .secondary-medium{
     font-size: 14px;
@@ -936,7 +937,7 @@ header label{
   }
 
   .teritory-font {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .teritory-font {
