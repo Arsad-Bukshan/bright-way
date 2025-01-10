@@ -1,2 +1,2 @@
 # bright-way
-Social Welfare To Stop drinking And Consuming Alcohol
+My project is about to stop drinking alcohol 
