@@ -1,3 +1,8 @@
+body {
+    overflow-x: hidden;
+}
+
+
 /* section one start */
 
 .section-one {
@@ -39,7 +44,7 @@
     margin-top: 112px;
 }
 
-.section-one .left-container button:hover{
+.section-one .left-container button:hover {
     background-color: #092049;
     cursor: pointer;
 }
@@ -57,7 +62,7 @@
 
 
 
-.section-two{
+.section-two {
     width: 100%;
     height: auto;
     display: flex;
@@ -70,7 +75,7 @@
 }
 
 
-.section-two .top-container{
+.section-two .top-container {
     width: 100%;
     height: auto;
     display: flex;
@@ -79,7 +84,7 @@
 }
 
 
-.section-two .bottom-container{
+.section-two .bottom-container {
     width: 100%;
     height: auto;
     display: flex;
@@ -91,7 +96,7 @@
 }
 
 
-.section-two .bottom-container .container{
+.section-two .bottom-container .container {
     width: 350px;
     height: 459px;
     display: flex;
@@ -105,7 +110,7 @@
     border-bottom: 5px rgba(0, 0, 0, 0.205) solid;
 }
 
-.section-two .bottom-container .container .container-one{
+.section-two .bottom-container .container .container-one {
     margin-top: 34px;
 }
 
@@ -124,20 +129,21 @@
 
 
 
-.section-three{
+.section-three {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.section-three img{
-     width: 90%;
-     height: auto;
-     margin: 65px;
+.section-three img {
+    width: 80%;
+    height: auto;
+    margin: 65px;
+    margin-left: 10%;
 }
 
-.section-three .text{
+.section-three .text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,7 +159,7 @@
 
 /* section four start */
 
-.section-four{
+.section-four {
     width: auto;
     height: auto;
     background-image: url("../src/image/My-progress/sectionfour/gamingbanner.png");
@@ -179,7 +185,7 @@
 
 .left-section h1 {
     font-weight: bolder;
-     line-height: 0.9;
+    line-height: 0.9;
 }
 
 .login-form {
@@ -225,6 +231,12 @@
     cursor: pointer;
 }
 
+.login-btn:hover {
+    background-color: rgb(34, 34, 80);
+    cursor: pointer;
+    transition: 0.7s;
+}
+
 .signup-btn {
     width: 196px;
     height: 47px;
@@ -235,6 +247,13 @@
     border-radius: 14px;
     font-size: 16px;
     cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: #68B684;
+    color: white;
+    cursor: pointer;
+    transition: 0.7s;
 }
 
 
@@ -251,20 +270,551 @@
 
 
 
-@media (max-width:1150px){
-     
-    .bottom-container{
+
+@media (max-width:1000px) {
+    .section-three .graph {
+        width: auto;
+    }
+
+}
+
+
+@media (max-width:1150px) {
+
+    .bottom-container {
         flex-wrap: wrap;
     }
 
 }
 
-@media (max-width:1000px){
+@media (max-width:1000px) {
 
     .section-four {
         display: block;
     }
 }
+
+
+
+
+@media (max-width: 900px) {
+
+
+    .section-one {
+        height: auto;
+        background-position: center;
+        padding: 60px 0;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-one .left-container {
+        width: 100%;
+        text-align: center;
+        padding: 60px 15px 30px 15px;
+    }
+
+
+    .section-one .left-container button {
+        width: 160px;
+        height: 40px;
+        margin-top: 40px;
+        font-size: 9px;
+        border-radius: 14px;
+        background-color: #092049;
+        color: white;
+        cursor: pointer;
+    }
+
+    .section-one .left-container button:hover {
+        background-color: #092049;
+    }
+
+    /* Section Two */
+    .section-two .bottom-container {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-two .bottom-container .container {
+        width: 280px;
+        height: auto;
+        margin: 0 auto;
+        background-color: #B3CEFF;
+        border-radius: 115px 115px 0px 0px;
+        border-bottom: 5px rgba(0, 0, 0, 0.205) solid;
+    }
+
+    .section-two .bottom-container .container .container-one {
+        margin-top: 20px;
+    }
+
+    /* Section Three */
+    .section-three img {
+        width: 90%;
+        height: auto;
+        margin: 30px;
+    }
+
+    .section-three .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 65px;
+    }
+
+    /* Section Four */
+    .section-four {
+        margin-top: 50px;
+        background-image: url("../src/image/My-progress/sectionfour/gamingbanner.png");
+    }
+
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-section {
+        padding-left: 15px;
+        padding-top: 30px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .left-section h1 {
+        /* font-size: 20px; */
+        margin-bottom: 20px;
+    }
+
+    .login-form {
+        gap: 20px;
+    }
+
+    .input-field {
+        padding: 8px;
+        margin-bottom: 20px;
+    }
+
+    .button-group {
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .login-btn,
+    .signup-btn {
+        width: 80%;
+    }
+
+    .signup-btn {
+        border-radius: 10px;
+    }
+
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+
+    nav .wrapper button {
+        margin-bottom: 20px;
+    }
+
+    .section-one {
+        height: auto;
+        background-position: center;
+        padding: 50px 0;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-one .left-container {
+        width: 100%;
+        text-align: center;
+        padding: 40px 15px;
+    }
+
+
+    .section-one .left-container button {
+        width: 140px;
+        height: 40px;
+        margin-top: 30px;
+        font-size: 14px;
+        border-radius: 14px;
+        background-color: #092049;
+        color: white;
+        cursor: pointer;
+    }
+
+    .section-one .left-container button:hover {
+        background-color: #092049;
+    }
+
+    /* Section Two */
+    .section-two .bottom-container {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+    }
+
+    .section-two .bottom-container .container {
+        width: 250px;
+        height: auto;
+        margin: 0 auto;
+        background-color: #B3CEFF;
+        border-radius: 115px 115px 0px 0px;
+        border-bottom: 5px rgba(0, 0, 0, 0.205) solid;
+    }
+
+    .section-two .bottom-container .container .container-one {
+        margin-top: 20px;
+    }
+
+    /* Section Three */
+    .section-three img {
+        width: 90%;
+        height: auto;
+        margin: 20px;
+    }
+
+    .section-three .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    /* Section Four */
+    .section-four {
+        margin-top: 30px;
+        background-image: url("../src/image/My-progress/sectionfour/gamingbanner.png");
+    }
+
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-section {
+        padding-left: 15px;
+        padding-top: 20px;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .left-section h1 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .login-form {
+        gap: 15px;
+    }
+
+    .input-field {
+        padding: 8px;
+        margin-bottom: 15px;
+    }
+
+    .button-group {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .login-btn,
+    .signup-btn {
+        width: 80%;
+    }
+
+    .signup-btn {
+        border-radius: 10px;
+    }
+
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    footer .wrapper .first {
+        align-items: start;
+    }
+
+    footer .wrapper .first p {
+        text-align: start;
+    }
+
+    footer .wrapper .second {
+        text-align: start;
+    }
+
+    footer .wrapper .second h3 {
+        text-align: start;
+    }
+
+    footer .wrapper .third h3 {
+        text-align: start;
+    }
+
+    footer .wrapper .fourth h3 {
+        text-align: start;
+
+    }
+}
+
+
+@media (max-width: 550px) {
+
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+
+    .logo-conatiner {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .logo-conatiner h1 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 0;
+        width: 100%;
+        text-align: start;
+        margin-top: 20px;
+    }
+
+    ul li {
+        margin: 10px 0;
+    }
+
+    ul li a {
+        text-decoration: none;
+        font-size: 14px;
+        padding: 5px 0;
+    }
+
+
+    label {
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"]:checked+ul {
+        display: flex;
+    }
+
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #092049;
+        color: #ffffff;
+        border: none;
+        border-radius: 14px;
+        font-size: 16px;
+        margin-top: 20px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    button:hover {
+        background-color: #092049;
+    }
+
+
+    .section-one {
+        width: 100%;
+        height: 400px;
+        background-image: url("../src/image/My-progress/sectionone/banner.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .section-one .left-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+        padding-top: 0;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .section-one .left-container h1 {
+        font-size: 24px;
+        margin-bottom: 200px;
+    }
+    
+    .section-one .left-container p {
+        display: none;
+    }
+
+
+
+    .section-one .left-container button {
+        display: none;
+    }
+
+
+    .section-two .bottom-container {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .section-two .bottom-container .container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        background-color: #B3CEFF;
+        border-radius: 10px;
+    }
+
+    .section-two .bottom-container .container img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .section-three .text h1 {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .section-three {
+        margin-bottom: 20%;
+    }
+
+    .section-three .graph {
+        width: auto;
+        height: auto;
+    }
+
+
+    .section-four {
+        display: block;
+        /* width: 100%; */
+        height: auto;
+        padding: 10px;
+    }
+
+    .section-four .remember-me {
+        display: none;
+    }
+
+    .left-section {
+        padding-left: 0;
+        padding-top: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-section h1 {
+        font-size: 16px;
+    }
+
+    .login-form {
+        width: 100%;
+        padding: 0;
+    }
+
+    .input-field {
+        /* width: 100%; */
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+
+    .button-group {
+        gap: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .login-btn,
+    .signup-btn {
+        width: 100%;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+
+    .section-four .left-section h1 {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .login-btn {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .signup-btn {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .left-section .login-form {
+        gap: 15px;
+    }
+
+    .left-section .login-btn,
+    .signup-btn {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 350px) {
+
+    .section-two .top-container {
+        margin-top: 10%;
+    }
+
+    .section-four .left-section {
+        width: auto;
+    }
+
+}
+
+
+
 
 
 

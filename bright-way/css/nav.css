@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: #85f5ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav .wrapper {
+    height: 100%;
+    width: 80%;
+    /* background-color: lightcyan; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .wrapper h1 {
+    font-size: 36px;
+}
+
+nav .wrapper ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+}
+
+nav .wrapper ul li a {
+    text-decoration: none;
+}
+
+nav .wrapper button {
+
+    padding: 10px 20px;
+    background-color: #2A5298;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+}
+
+nav .wrapper label,
+nav .wrapper #hamBtn {
+    display: none;
+    /* font-size: 30px; */
+}
+
+
+/* @media only screen and (max-width:970px) {
+    nav .wrapper {
+        width: 100%;
+    }
+} */
+
+
+@media only screen and (max-width:768px) {
+    nav .wrapper label {
+        display: block;
+        font-size: 24px;
+    }
+
+    nav .wrapper button {
+        margin-left: auto;
+    }
+
+    nav .wrapper {
+        justify-content: start;
+        gap: 30px;
+    }
+
+    nav .wrapper ul {
+        position: absolute;
+        background-color: orange;
+        flex-direction: column;
+        top: 70px;
+        left: -100%;
+        transition-duration: 0.7s;
+        width: 100%;
+        align-items: start;
+        padding: 20px 0px;
+    }
+
+    nav .wrapper ul li {
+        margin-left: 10%;
+    }
+
+    nav .wrapper #hamBtn:checked~ul {
+        left: 0px;
+        background-color: rgba(255, 255, 255, 0.556);
+        color: black;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    nav .wrapper h1 {
+        font-size: 30px;
+    }
+
+    nav .wrapper button {
+        font-size: 12px;
+        padding: 8px 16px;
+        margin-bottom: 20px;
+    }
+
+    nav .wrapper ul li a {
+        font-size: 18px;
+    }
+
+    nav button {
+        width: 100%;
+    }
+}

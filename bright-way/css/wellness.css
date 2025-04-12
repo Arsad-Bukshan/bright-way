@@ -1,0 +1,1257 @@
+body {
+    overflow-x: hidden;
+}
+
+
+
+
+.section-one{
+    width: 100%;
+    height: 616px;
+    background-image: url('../src/image/wellness/sectionone/banner.png');
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.section-one .content{
+    width: 768px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 83px;
+    gap: 25px;
+}
+
+.section-two{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+.section-two h2 {
+    text-align: center;
+}
+
+.section-two .container-one{
+    width: 807px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 47px;
+    margin-top: 140px;
+}
+
+.section-two .container-two{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 312px;
+}
+
+.section-two .container-two .left-container, .section-two .container-two .right-container{
+    display: flex;
+    flex-direction: column;
+    gap: 97px;
+}
+
+.section-two .container-two .left-container img, .section-two .container-two .right-container img{
+    width: 94px;
+    height: 94px;
+}
+
+.section-two .container-two .left-container .first-container, .section-two .container-two .left-container .second-container,.section-two .container-two .left-container .third-container, .section-two .container-two .right-container .first-container, .section-two .container-two .right-container .second-container,.section-two .container-two .right-container .third-container{
+    width: 457px;
+    height: auto;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-three{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 197px;
+    gap: 10%;
+}
+
+.section-three .left-container, .section-three .right-container{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.section-three .left-container form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+}
+
+.section-three .left-container form .input{
+    width: 100%;
+    height: 35px;
+}
+
+.section-three .left-container form .input::placeholder{
+   color: #68B684;
+}
+
+.section-three .left-container form .input-field{
+    height: auto;
+    width: 100%;
+}
+.section-three .left-container form .input-field::placeholder{
+    color: #68B684;
+}
+
+.section-three .left-container button {
+    width: auto;
+    height: auto;
+    padding: 9px;
+    border-radius: 20px;
+}
+
+.section-three .left-container button:hover{
+    background-color: rgb(34, 34, 80);
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.section-three .right-container img{
+    width: 100%;
+    height: auto;
+}
+
+.section-five{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 74px;
+    margin-top: 197px;
+}
+
+.section-five .container-one{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 43px;
+    text-align: center;
+
+}
+
+/* .section-five .container-two{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 93px;
+} */
+
+.section-five .container-three button{
+    width: 196px;
+    height: auto;
+    padding: 20px 40px;
+    border-radius: 14px;
+    background-color: transparent;
+}
+
+.section-five .container-three button:hover{
+    background-color: #68B684;
+    color: white;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+
+
+
+
+
+
+/* media query start */
+
+
+
+
+
+
+
+@media (max-width: 1150px) {
+    body {
+        margin: 0; 
+        padding: 0; 
+        overflow-x: hidden;
+    }
+
+nav {
+    width: auto;
+}
+
+
+
+    .section-one {
+        width: 96%;
+        height: auto; 
+        background-size: cover; 
+        background-repeat: no-repeat;
+        padding: 20px; 
+    }
+    .section-one .content {
+        width: 90%; 
+        margin-left: auto;
+        margin-right: auto; 
+        align-items: center;
+        gap: 15px;
+    }
+
+    .section-two .container-one {
+        width: 100%; 
+        gap: 30px; 
+    }
+    .section-two .container-two {
+        flex-direction: column; 
+        gap: 50px; 
+    }
+    .section-two .container-two .left-container,
+    .section-two .container-two .right-container {
+        gap: 30px; 
+    }
+    .section-two .container-two img {
+        width: 70px; 
+        height: 70px;
+    }
+
+    .section-three {
+        width: 95%;
+        text-align: center;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 100px;
+    }
+    .section-three .left-container,
+    .section-three .right-container {
+        width: 90%; 
+        align-items: center;
+    }
+    .section-three .left-container form {
+        width: 100%; 
+    }
+
+    .section-three .left-container form ::placeholder {
+        font-size: 18px;
+    }
+    .section-three .left-container button {
+        width: 100%; 
+    }
+
+    .section-five .container-one {
+        width: 100%; 
+        text-align: center; 
+    }
+    .section-five .container-two {
+        width: auto;
+        gap: 50px; 
+    }
+    .section-five .container-three button {
+        width: auto; 
+        padding: 15px 30px; 
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+    body {
+        margin: 0; 
+        padding: 0; 
+        overflow-x: hidden; 
+    }
+
+    /* header nav {
+        flex-direction: column; 
+        align-items: center;
+    } */
+
+    header nav .logo-conatiner {
+        text-align: start;
+    }
+
+    header nav ul {
+        flex-direction: column; 
+        align-items: center;
+        gap: 15px;
+    }
+
+    header nav button {
+        width: auto;
+        padding: 10px 20px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .section-one {
+        height: auto; 
+        background-size: cover; 
+        padding: 20px; 
+    }
+
+    .section-one .content {
+        width: 90%; 
+        margin: 0 auto; 
+        align-items: center;
+        gap: 15px;
+    }
+
+    .section-two {
+        gap: 50px; 
+        margin-top: 50px;
+    }
+
+    .section-two .container-one {
+        width: 90%; 
+        text-align: center;
+        gap: 20px;
+    }
+
+    .section-two .container-two {
+        flex-direction: column; 
+        gap: 40px;
+    }
+
+    .section-two .container-two .left-container,
+    .section-two .container-two .right-container {
+        gap: 20px;
+    }
+
+    .section-two .container-two img {
+        width: 60px; 
+        height: 60px;
+    }
+
+    .section-three {
+        flex-direction: column; 
+        gap: 40px;
+        margin-top: 50px; 
+    }
+
+    .section-three .left-container,
+    .section-three .right-container {
+        width: 90%; 
+        align-items: center;
+    }
+
+    .section-three .left-container form {
+        width: 100%; 
+    }
+
+    .section-three .left-container button {
+        width: 100%; 
+        padding: 10px 20px;
+    }
+
+    .section-five {
+        margin-top: 50px;
+        gap: 50px;
+    }
+
+    .section-five .container-one {
+        width: 90%;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .section-five .container-two {
+        display: none;
+    }
+
+    .section-five .container-three button {
+        width: auto;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 720px) {
+
+    header nav {
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    header nav .logo-conatiner h1 {
+        font-size: 16px; 
+        text-align: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    header nav button {
+        width: auto;
+        padding: 8px 15px;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    .section-one {
+        width: auto;
+        height: auto; 
+        background-size: cover; 
+        padding: 15px;
+        text-align: center; 
+    }
+
+    .section-one p {
+        font-size: 16px;
+    }
+
+    .section-one .content {
+        width: 95%; 
+        margin: 0 auto;
+        gap: 10px;
+    }
+
+    .section-two {
+        text-align: start;
+        margin-bottom: 100px;
+        gap: 40px;
+        margin-top: 30px;
+    }
+
+    .section-two .container-one {
+        width: 95%;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .section-two .container-one h2 {
+        font-size: 16px;
+    }
+
+    .section-two .container-two {
+        flex-direction: column; 
+        gap: 30px;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .section-two .container-two .left-container,
+    .section-two .container-two .right-container {
+        gap: 15px;
+    }
+
+    .section-two .container-two img {
+        width: 50px; 
+        height: 50px;
+    }
+
+    .container-two h1 {
+        font-size: 18px;
+    }
+
+    .section-three {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 40px;
+        padding: 10px;
+    }
+
+    .section-three p {
+        font-size: 16px;
+    } 
+
+    .section-three .left-container,
+    .section-three .right-container {
+        width: 100%; 
+        align-items: center;
+    }
+
+    .section-three .left-container form {
+        width: 100%; 
+        gap: 20px;
+    }
+    .section-three .left-container button {
+        width: 100%; 
+        padding: 10px 15px;
+    }
+
+    .section-five {
+        width: auto;
+        gap: 40px;
+        margin-top: 40px;
+        padding: 10px;
+    }
+
+    .section-five .container-one {
+        width: 95%;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .section-five .container-two {
+        flex-direction: column; 
+        gap: 20px;
+        width: 95%;
+    }
+
+    .section-five .container-three button {
+        width: auto;
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 650px) {
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; 
+        font-size: 14px; 
+    }
+
+
+    header nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    header .logo-conatiner {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    header ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    header ul li {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    header ul li a {
+        width: 100%;
+        display: block;
+        padding: 10px 0;
+    }
+
+    header button {
+        width: 100%;
+        padding: 12px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+   
+
+    .section-one {
+        width: 100%;
+        height: 500px;
+        background-image: url('../src/image/wellness/sectionone/banner.png');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-one .content {
+        width: 90%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .section-one h1 {
+        font-size: 26px; 
+    }
+
+    .section-one p {
+        font-size: 14px;
+    }
+
+    
+
+    .section-two {
+        width: 100%;
+        padding: 20px;
+        gap: 60px;
+    }
+
+    .section-two .container-one {
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .section-two .container-two {
+        display: block;
+        width: 100%;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .section-two .container-two .left-container, .section-two .container-two .right-container {
+        display: block;
+        width: 100%;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .section-two .container-two img {
+        width: 60px;
+        height: 60px;
+    }
+
+   
+
+    .section-three {
+        width: 100%;
+        margin-top: 40px;
+        padding: 20px;
+        display: block;
+    }
+
+    .section-three .left-container, .section-three .right-container {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .section-three form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .section-three .left-container form input, .section-three .left-container form textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .section-three button {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    
+
+    .section-five {
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .section-five .container-one {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-five .container-two {
+     display: none;
+    }
+
+    .section-five .container-three button {
+        width: 100%;
+        padding: 12px;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+
+
+@media (max-width: 560px){
+    .section-two {
+     display: none;
+    }
+}
+
+
+
+
+
+@media (max-width: 500px) {
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; 
+        font-size: 12px; 
+    }
+
+   
+    header nav {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px;
+    }
+
+    header .logo-conatiner {
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    header ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    header ul li {
+        width: 100%;
+        text-align: center;
+        padding: 8px 0;
+    }
+
+    header ul li a {
+        width: 100%;
+        display: block;
+        padding: 8px 0;
+    }
+
+    header button {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    
+    .section-one {
+        width: 485px;
+        height: 400px;
+        background-image: url('../src/image/wellness/sectionone/banner.png');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-one .content {
+        width: 90%;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    .section-one h1 {
+        font-size: 22px;
+    }
+
+    .section-one p {
+        font-size: 12px;
+    }
+
+    
+    .section-two {
+        width: 100%;
+        /* padding: 10px; */
+        gap: 50px;
+    }
+
+    .section-two .container-one {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .section-two .container-two {
+        width: 100%;
+        text-align: start;
+        gap: 40px;
+    }
+
+    .section-two .container-two .left-container, .section-two .container-two .right-container {
+        display: block;
+        width: 100%;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .section-two .container-two img {
+        width: 50px;
+        height: 50px;
+    }
+
+    
+    .section-three {
+        width: 100%;
+        margin-top: 30px;
+        padding: 15px;
+        display: block;
+    }
+
+    .section-three .left-container, .section-three .right-container {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .section-three form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .section-three .left-container form input, .section-three .left-container form textarea {
+        width: 100%;
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .section-three button {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+  
+    .section-five {
+        width: 100%;
+        padding: 30px 10px;
+    }
+
+    .section-five .container-one {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-five .container-two {
+       display: none;
+    }
+
+    .section-five .container-three button {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 440px) {
+
+    .section-two {
+        width: auto;
+        height: auto;
+    }
+
+    .section-two .container-two .left-container {
+        display: none;
+    }
+
+    .section-two .container-two .right-container {
+        width: auto;
+        
+    }
+
+    .section-three .left-container {
+        width: auto;
+        height: auto;
+        margin-bottom: 20%;
+    }
+
+    .section-three .left-container .contact-form {
+        width: 80%;
+        margin-right: 10%;
+    }
+
+    .section-three .left-container .contact-form button {
+        margin-left: 3%;
+    }
+
+    .section-three .content-container h1 {
+        margin-right: 9%;
+        font-size: 24px;
+        margin-bottom: 5%;
+    }
+
+    .section-three .content-container p {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .section-three .right-container img {
+        width: 80%;
+        margin-right: 5%;
+    }
+
+    .section-five   {
+        width: auto;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    header nav {
+        width: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px;
+    }
+
+    header .logo-conatiner {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    header ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    header ul li {
+        width: 100%;
+        text-align: center;
+        padding: 6px 0;
+    }
+
+    header ul li a {
+        width: 100%;
+        display: block;
+        padding: 6px 0;
+    }
+
+    header button {
+        width: 100%;
+        padding: 8px;
+        font-size: 12px;
+    }
+
+
+    .section-one {
+        width: auto;
+        height: 300px;
+        background-image: url('../src/image/wellness/sectionone/banner.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-one .content {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .section-one h1 {
+        font-size: 18px;
+    }
+
+    .section-one p {
+        font-size: 10px;
+    }
+
+ 
+    .section-two {
+        width: 100%;
+        padding: 10px;
+        gap: 50px;
+    }
+
+    .section-two .container-one {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .section-two .container-two {
+        display: block;
+        width: 100%;
+        text-align: center;
+        gap: 20px;
+    }
+
+   
+    .section-two .container-two .left-container {
+        display: none; 
+    }
+
+    .section-two .container-two .right-container {
+        display: block;
+        width: 100%;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-two .container-two img {
+        width: 40px;
+        height: 40px;
+    }
+
+ 
+    .section-three {
+        width: auto;
+        margin-top: 20px;
+        padding: 10px;
+        display: block;
+    }
+
+    .section-three .left-container, .section-three .right-container {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .section-three form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .section-three .left-container form input, .section-three .left-container form textarea {
+        width: 100%;
+        padding: 6px;
+        /* font-size: 10px; */
+    }
+
+    .section-three button {
+        width: 100%;
+        padding: 8px;
+        font-size: 12px;
+    }
+
+   
+    .section-five {
+        /* width: 100%; */
+        padding: 20px 10px;
+    }
+
+    .section-five .container-one {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-five .container-two {
+      display: none;
+    }
+
+    .section-five .container-three button {
+        width: 100%;
+        padding: 8px;
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 350px) {
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        font-size: 10px; 
+    }
+  
+
+    .section-one {
+        width: 100%;
+        height: 200px;
+        background-image: url('../src/image/wellness/sectionone/banner.png');
+        background-size: cover;
+        background-position: center; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-one .content {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+   
+
+    .section-two {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .section-two .container-one {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .section-two .container-two {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    .section-two .container-two .left-container .third-container {
+        display: none;
+    }
+
+    
+    .section-two .container-two .left-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-two .container-two .left-container .first-container,
+    .section-two .container-two .left-container .second-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+
+    .section-three {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .section-three .left-container form {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .section-three .left-container button {
+        width: 100%;
+        padding: 6px;
+        font-size: 8px;
+    }
+
+   
+    .section-five {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .section-five .container-one {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .section-five .container-two {
+      display: none;
+    }
+
+    .section-five .container-three button {
+        width: 150px;
+        padding: 12px;
+        border-radius: 12px;
+        font-size: 8px;
+    }
+}
+
